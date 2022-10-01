@@ -1,12 +1,3 @@
-<style>
-pre {
-  white-space: pre-wrap;
-  max-width: 100%;
-  overflow-x: auto;
-}
-
-</style>
-
 # Практическое задание
 ## Выполнил Дергунов Никита
 Перед выполнение был установлен docker, скачен  docker-образ с hadoop img-hdp-hadoop-20220926T170318Z-001.zip и архив с данными archive.zip
@@ -28,13 +19,13 @@ drwxr-xr-x   - hduser supergroup          0 2022-10-01 21:11 /user/hduser/ppkm
 ```
 ### 2. Проверьте работоспособность кластера, посмотрев на статус ресурс менеджера, нейм ноды и дата ноды (1 балл) ###
 #### Статус ресурс менеджера ####
-![resource_manager.png](resource_manager.png)
+![resource_manager.png](images/resource_manager.png)
 #### Статус нэйм ноды ####
-![name_node_status.png](name_node_status.png)
-![name_node_status_2.png](name_node_status_2.png)
+![name_node_status.png](images/name_node_status.png)
+![name_node_status_2.png](images/name_node_status_2.png)
 #### Статус дата ноды ####
-![data_node_status.png](data_node_status.png)
-![data_node_status_2.png](data_node_status_2.png)
+![data_node_status.png](images/data_node_status.png)
+![data_node_status_2.png](images/data_node_status_2.png)
 
 ### 3. Поместите датасет ppkm_sentiment у себя в HDFS и дайте всем пользователям на них полные права (1 балл) ###
 ```sh
