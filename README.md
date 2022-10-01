@@ -10,7 +10,7 @@ CONTAINER ID   IMAGE            COMMAND                  CREATED         STATUS 
 134240ae1596   img-hdp-hadoop   "/home/hduser/hadoop…"   3 minutes ago   Up 3 minutes   0.0.0.0:4040->4040/tcp, :::4040->4040/tcp, 22/tcp, 8020/tcp, 8030-8033/tcp, 0.0.0.0:4044->4044/tcp, :::4044->4044/tcp, 8040/tcp, 0.0.0.0:8042->8042/tcp, :::8042->8042/tcp, 0.0.0.0:8088->8088/tcp, :::8088->8088/tcp, 8080/tcp, 9000/tcp, 9864/tcp, 9870/tcp, 10000/tcp, 10020/tcp, 19888/tcp, 50010/tcp, 0.0.0.0:8888->8888/tcp, :::8888->8888/tcp, 0.0.0.0:50070->50070/tcp, :::50070->50070/tcp, 0.0.0.0:50075->50075/tcp, :::50075->50075/tcp, 50020/tcp, 0.0.0.0:50090->50090/tcp, :::50090->50090/tcp   hdp
 nikita@nikita-X99:~/Загрузки$ sudo docker cp archive.zip hdp:/home/hduser/
 ````
-### Терминал с HADOOP ####
+#### Терминал с HADOOP #####
 ```sh
 hduser@localhost:~$ hdfs dfs -put ppkm /user/hduser/
 hduser@localhost:~$ hdfs dfs -ls /user/hduser/
